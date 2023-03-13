@@ -1,0 +1,22 @@
+.head {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+.blog-heading {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+.highlight {
+    background-color: coral;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: brown;
+    background-color: aquamarine;
+}
