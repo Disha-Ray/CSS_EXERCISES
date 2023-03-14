@@ -1,0 +1,40 @@
+header {
+    background-color: #f0ebeb;
+}
+
+section.my-articles {
+    background-color: #f2e9e9;
+
+}
+
+/* universal Selector */
+* {
+    color: blue;
+}
+
+/* space means inside header tag the p tag */
+header p {
+    color: brown;
+}
+
+/* section.my-articles h2 {
+    color: darkgreen;
+} */
+
+/* direct child selector */
+section.my-articles>h2 {
+    color: indigo;
+}
+
+h2+p {
+    color: dimgray;
+}
+
+section.my-articles h2+p {
+    color: dimgray
+}
+
+.heading {
+    font-size: 50px;
+    color: darkred;
+}
