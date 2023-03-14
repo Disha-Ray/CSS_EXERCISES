@@ -1,0 +1,28 @@
+/* Attribute Styling */
+input[type="text"] {
+    color: crimson;
+    background-color: dimgray;
+}
+
+input[type="password"] {
+    background-color: darkkhaki;
+}
+
+a[href="https://github.com/"] {
+    color: rgb(23, 133, 47);
+}
+
+/* where ever there is udacity in href in a it will turn fuschia */
+a[href *="udacity"] {
+    color: fuchsia;
+}
+
+/* starting with https */
+/* a[href ^= "https"]{
+    color: brown;
+} */
+
+/* ending with .com */
+/* a[href $= ".com"]{
+    color: rgb(147, 157, 11);
+} */
